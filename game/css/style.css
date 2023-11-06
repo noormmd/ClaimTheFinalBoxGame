@@ -1,0 +1,214 @@
+  /*Formatting for general text, headings, buttons, text etc*/
+  h1 {
+  	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  	color: pink;
+  	-webkit-text-stroke: 0cqb;
+  	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: white;
+  }
+
+  p {
+  	font-family: 'Courier New', Courier;
+  	color: black;
+  	font-size: 15px;
+  	font-weight: bolder;
+  	padding: 10px;
+  	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  	color: black;
+  	font-size: 15px;
+  }
+
+  button {
+  	background-color: white;
+  	color: black;
+  	padding: 1px 32px;
+  	border-radius: 10cqh;
+  	text-align: center;
+  	font-size: 12px;
+  	border-style: groove;
+  	border-color: lightskyblue;
+  	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  /*Login, register and contact forms*/
+  input {
+  	border-style: initial;
+  	border: groove;
+  	border-width: 3px;
+  	border-color: aliceblue;
+  	border-radius: 20cqi;
+  	width: 160px;
+  	height: 22px;
+  	font-weight: bolder;
+  	font-size: small;
+  	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  	font-style: italic;
+  	background-color: rgba(255, 255, 255, 0.5);
+  	color: rgb(79, 9, 67);
+  }
+
+  /*Background of website*/
+  body {
+  	background-image: url(../images/background.gif);
+  	align-items: center;
+  	background-size: cover;
+  	background-attachment: fixed;
+  }
+
+  /*Navigation tabs*/
+  .tabs {
+  	padding-left: 6%;
+  	padding-right: 6%;
+  	color: white;
+  	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  	text-decoration: none;
+  	font-size: large;
+  	-webkit-text-stroke-color: grey;
+  	-webkit-text-stroke-width: 1px;
+  }
+
+  /*To change colour of tabs when hovered over*/
+  a:hover {
+  	color: grey;
+  }
+
+  /*Contact text box*/
+  .contact {
+  	width: 45%;
+  	padding-bottom: 130px;
+  	text-align: center;
+  	color: black;
+  }
+
+  /*Game styling*/
+  .grid-container {
+  	display: grid;
+  	border-color: white;
+  	border: 3px solid white;
+  	color: white;
+  	grid-auto-rows: minmax(60px, auto);
+  	grid-template-columns: auto auto auto auto;
+  	display: grid;
+  	align-content: center;
+  	width: 450px;
+  	height: 305px;
+  	margin: 15px;
+  	padding-top: 20px;
+  	padding-right: 20px;
+  	gap: 9px;
+  }
+
+  /*Columns and rows for game*/
+  .one {
+  	grid-column: 1;
+  	grid-row: 1;
+  }
+
+  .two {
+  	grid-column: 2;
+  	grid-row: 1;
+  }
+
+  .three {
+  	grid-column: 3;
+  	grid-row: 1;
+  }
+
+  .four {
+  	grid-column: 4;
+  	grid-row: 1;
+  }
+
+  .five {
+  	grid-column: 1;
+  	grid-row: 2;
+  }
+
+  .six {
+  	grid-column: 2;
+  	grid-row: 2;
+  }
+
+  .seven {
+  	grid-column: 3;
+  	grid-row: 2;
+  }
+
+  .eight {
+  	grid-column: 4;
+  	grid-row: 2;
+  }
+
+  .nine {
+  	grid-column: 1;
+  	grid-row: 3;
+  }
+
+  .ten {
+  	grid-column: 2;
+  	grid-row: 3;
+  }
+
+  .eleven {
+  	grid-column: 3;
+  	grid-row: 3;
+  }
+
+  .twelve {
+  	grid-column: 4;
+  	grid-row: 3;
+  }
+
+  .thirteen {
+  	grid-column: 1;
+  	grid-row: 4;
+  }
+
+  .fourteen {
+  	grid-column: 2;
+  	grid-row: 4;
+  }
+
+  .fifteen {
+  	grid-column: 3;
+  	grid-row: 4;
+  }
+
+  .sixteen {
+  	grid-column: 4;
+  	grid-row: 4;
+  }
+
+  /*Leaderboard table*/
+  .leaderboard,
+  #th,
+  #td {
+  	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  	color: black;
+  	font-size: 15px;
+  	border-style: solid;
+  	border-width: 2px;
+  	stroke-width: 2px;
+  	word-spacing: 5px;
+  	border-color: palevioletred;
+  	border-spacing: 20px;
+  	justify-content: center;
+  	align-content: space-between;
+  	background: rgba(255, 255, 255, 0.5);
+  }
+
+  /*Character image*/
+  .character {
+  	margin-bottom: 200px;
+  	padding-bottom: 200px;
+  	align-items: center;
+  	display: flex;
+  }
+
+  /*Transparent box around sections*/
+  .box {
+  	background: rgba(255, 255, 255, 0.5);
+  	border: solid;
+  	border-color: palevioletred;
+  	border-width: 2px;
+  }
